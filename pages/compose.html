@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compose</title>
+  <link rel="stylesheet" href="../styling/style.css" />
+  <link rel="icon" href="../imgs/yugiohlogo.png">
+</head>
+
+<body class="compose">
+  <header>
+    <h1 class="page-header">Compose your deck.</h1>
+  </header>
+  <nav id="nb" class="navbar">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../pages/characters.html">Characters</a></li>
+      <li><a href="../pages/collections.html">Collections</a></li>
+      <li><a href="../pages/compose.html">Compose</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h4>A page for composing decks.</h4>
+
+    <section id="deck-build" class="deck-builder">
+      <h2>Deck Builder</h2>
+      <div class="deck-grid">
+        <div class="selected-cards">
+          <div id="deck-desc">
+            <h2>Your Deck</h2>
+            <label id="deck-count">Cards in deck: 0</label>
+          </div>
+          <ul class="card-items" id="selected-cards">
+            <!-- selected cards will be added here -->
+          </ul>
+          <button id="saveBtn">Save</button>
+          <button id="clearBtn">Clear</button>
+        </div>
+        <div class="card-list">
+          <h3>Available Cards</h3>
+          <ul class="card-items" id="card-list">
+            <!-- card items will be added here -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+  <script type="module" src="../js/compose.js"></script>
+
+</body>
+
+</html>
