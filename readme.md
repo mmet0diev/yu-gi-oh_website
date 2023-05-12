@@ -1,7 +1,7 @@
 # Yu-Gi-Oh website
 
 A fanmade Yu-Gi-Oh website consisting of 4 pages, describing different aspects of yu-gi-oh,
-about the anime, the game and it's rules, and other things in regards to yu-gi-oh.
+the anime, the game and it's rules, and other things in regards to yu-gi-oh.
 
 There are 4 pages, home, characters, collections and compose.
 
