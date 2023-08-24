@@ -91,7 +91,7 @@ function saveDeck() {
       console.log('Deck has less than 40 cards, cannot save.');
     }
   }
-    
+
 
 // Event Listeners
 cardList.addEventListener('dragover', dragOver);
