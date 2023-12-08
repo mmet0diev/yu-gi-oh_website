@@ -99,4 +99,3 @@ selectedCardList.addEventListener('dragover', dragOver);
 selectedCardList.addEventListener('drop', addCardToDeck);
 clearBtn.addEventListener('click', clearDeck);
 saveBtn.addEventListener('click', saveDeck);
-
